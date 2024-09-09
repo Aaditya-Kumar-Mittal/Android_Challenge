@@ -15,11 +15,17 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val btnIntent = findViewById<Button>(R.id.buttonIntent)
+        val btnImplicit = findViewById<Button>(R.id.buttonImplicitIntent)
 
         btnIntent.setOnClickListener{
             //Open a new activity
-
             intent = Intent(applicationContext, Scrollers::class.java)
+            startActivity(intent)
+        }
+
+        btnImplicit.setOnClickListener{
+
+            intent = Intent(applicationContext, ImplicitIntentsLab::class.java)
             startActivity(intent)
         }
     }

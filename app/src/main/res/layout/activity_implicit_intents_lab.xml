@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bloodRed"
+    android:orientation="vertical"
+    tools:context=".ImplicitIntentsLab">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/lightBiege"
+        app:cardCornerRadius="30dp"
+        android:id="@+id/cardWeb">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/blueDark"
+            android:textAlignment="center"
+            android:text="@string/open_web_page" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="30dp"
+        android:backgroundTint="@color/lightBiege"
+        android:id="@+id/cardCamera">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/blueDark"
+            android:text="@string/open_camera"/>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

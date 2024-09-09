@@ -4,4 +4,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="green">#005300</color>
     <color name="red">#FF0000</color>
+    <color name="coralRed">#FF6969</color>
+    <color name="blueDark">#FF0C1844</color>
+    <color name="bloodRed">#FFC80036</color>
+    <color name="lightBiege">#FFFFF5E1</color>
 </resources>
