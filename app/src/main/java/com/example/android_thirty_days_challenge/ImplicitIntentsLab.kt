@@ -27,7 +27,6 @@ class ImplicitIntentsLab : AppCompatActivity() {
             startActivity(intent)
 
         }
-
         cameraButton.setOnClickListener{
 
             val intent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)

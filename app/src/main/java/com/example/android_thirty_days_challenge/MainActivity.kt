@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         val btnIntent = findViewById<Button>(R.id.buttonIntent)
         val btnImplicit = findViewById<Button>(R.id.buttonImplicitIntent)
+        val btnWebView = findViewById<Button>(R.id.buttonWebView)
 
         btnIntent.setOnClickListener{
             //Open a new activity
@@ -26,6 +27,12 @@ class MainActivity : AppCompatActivity() {
         btnImplicit.setOnClickListener{
 
             intent = Intent(applicationContext, ImplicitIntentsLab::class.java)
+            startActivity(intent)
+        }
+
+        btnWebView.setOnClickListener{
+
+            intent = Intent(applicationContext, WebViewsImplementation::class.java)
             startActivity(intent)
         }
     }
