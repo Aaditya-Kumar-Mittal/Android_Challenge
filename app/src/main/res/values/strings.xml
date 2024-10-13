@@ -6,4 +6,10 @@
     <string name="implicit_intent_demo">Implicit Intent Demo</string>
     <string name="web_views_demo">Web Views Demo</string>
     <string name="click_me">Click Me</string>
+    <string name="nameInput">Enter your name</string>
+    <string name="sign_up_screen">Sign Up Screen</string>
+    <string name="example_name">eg. John Doe</string>
+    <string name="eg_password">eg. Password</string>
+    <string name="eg_email">example@domain.com</string>
+    <string name="sign_up_button">Sign Up</string>
 </resources>
