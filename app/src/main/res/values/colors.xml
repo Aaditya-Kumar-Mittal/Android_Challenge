@@ -8,4 +8,10 @@
     <color name="blueDark">#FF0C1844</color>
     <color name="bloodRed">#FFC80036</color>
     <color name="lightBiege">#FFFFF5E1</color>
+
+    <color name="cheese_outline">#1C2E72</color>
+    <color name="cheese_base">#FDCB50</color>
+    <color name="cheese_spread">#FD8F01</color>
+    <color name="button_green">#44ad61</color>
+
 </resources>
